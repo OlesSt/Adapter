@@ -14,6 +14,8 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 add_executable(Adapter
   main.cpp
+
+  adapter.h
 )
 target_link_libraries(Adapter Qt${QT_VERSION_MAJOR}::Core)
 
